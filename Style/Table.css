@@ -1,0 +1,100 @@
+﻿/* Tables.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+h2 {
+    text-align: center;
+    margin-top:5px;
+    bab
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+}
+
+th {
+    background-color:black;
+    color: #fff;
+    text-align: left;
+}
+
+
+tr {
+    background-color: #3498db;
+    color: #fff;
+}
+
+
+a {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #2ecc71; /* Green color */
+    color: white;
+    text-align:center;
+    text-decoration:none;
+    border-radius: 4px;
+    border: 1px solid #27ae60; /* Darker shade of green */
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+    a{
+        background-color: #27ae60; /* Darker shade of green on hover */
+        border-color: #1f8f4f; /* Even darker shade on hover */
+    }
+
+/* Buttons.css */
+/* Styling for the update button */
+.update-button {
+    padding: 5px 10px ;
+    margin-top: 5px;
+    margin-right:auto;
+    margin-left:auto;
+    background-color:limegreen;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+    .update-button:hover {
+        background-color: #2980b9;
+    }
+
+/* Styling for the status dropdown */
+.status-field {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+/* Styling for the previous and next buttons */
+#prevBtn, #nextBtn {
+    padding: 5px 10px;
+    background-color: #f2f2f2;
+    color: #333;
+    border: none;
+    cursor: pointer;
+}
+
+    #prevBtn[disabled], #nextBtn[disabled] {
+        opacity: 0.5;
+        cursor: not-allowed;
+    }
+
